@@ -1,5 +1,7 @@
+
+
 body {
-  background: #ddd;
+  background: rgb(66, 181, 226);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -35,4 +37,33 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+section {
+	display: inline-block;
+  }
+
+.skills-sec{
+	display: flex;
+}
+
+.hobbies-sec {
+	display: flex;
+}
+
+.goals-sec {
+	display: flex;
+}
+
+h3 {
+	display: inline-block;
+}
+
+button {
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
